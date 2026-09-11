@@ -1,0 +1,13 @@
+# Entorno virtual y cachés
+.venv/
+__pycache__/
+*.py[cod]
+
+# Base de datos local
+*.db
+libros.db
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
